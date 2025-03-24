@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate, Link, useLocation } from 'react-router-dom';
 import Layout from '@/components/Layout';
@@ -11,7 +10,7 @@ const VehicleDetail: React.FC = () => {
   const navigate = useNavigate();
   const location = useLocation();
   const [car, setCar] = useState<Car | null>(null);
-  const [loading, setLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(true);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const { toast } = useToast();
   
@@ -22,7 +21,7 @@ const VehicleDetail: React.FC = () => {
     message: '',
   });
 
-  // Determine which tab is active based on the URL
+  // Fonction pour définir l'onglet actif selon l'URL
   const getCurrentTab = () => {
     const path = location.pathname;
     if (path.endsWith('/contact')) return 'contact';
@@ -32,19 +31,19 @@ const VehicleDetail: React.FC = () => {
 
   const [activeTab, setActiveTab] = useState(getCurrentTab());
 
+  // Mise à jour de l'onglet actif lorsque l'URL change
   useEffect(() => {
     setActiveTab(getCurrentTab());
   }, [location.pathname]);
 
+  // Chargement des détails du véhicule
   useEffect(() => {
-    // Simulate loading
-    setLoading(true);
+    setIsLoading(true);
     setTimeout(() => {
       const foundCar = cars.find(car => car.id === Number(id));
       setCar(foundCar || null);
-      setLoading(false);
+      setIsLoading(false);
       
-      // Scroll to top when page loads
       window.scrollTo(0, 0);
       
       if (!foundCar) {
@@ -53,16 +52,19 @@ const VehicleDetail: React.FC = () => {
     }, 300);
   }, [id, navigate]);
 
+  // Gestion du changement d'onglet
   const handleTabChange = (value: string) => {
     setActiveTab(value);
     navigate(`/vehicule/${id}/${value === 'overview' ? '' : value}`);
   };
 
+  // Mise à jour des données du formulaire
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
     setFormData(prev => ({ ...prev, [name]: value }));
   };
 
+  // Soumission du formulaire
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
@@ -82,10 +84,9 @@ const VehicleDetail: React.FC = () => {
       if (response.ok) {
         toast({
           title: "Demande envoyée",
-          description: "Nous vous contacterons très prochainement pour discuter de votre intérêt pour " + car?.name,
+          description: `Nous vous contacterons très prochainement pour discuter de votre intérêt pour ${car?.name}`,
         });
         
-        // Reset form
         setFormData({
           name: '',
           email: '',
@@ -110,7 +111,7 @@ const VehicleDetail: React.FC = () => {
     }
   };
   
-  if (loading) {
+  if (isLoading) {
     return (
       <Layout>
         <div className="min-h-screen flex items-center justify-center">
@@ -134,7 +135,7 @@ const VehicleDetail: React.FC = () => {
     <Layout>
       <div className="min-h-screen bg-gradient-to-b from-gray-900 to-black py-16">
         <div className="container mx-auto px-4">
-          {/* Header avec image de couverture */}
+          {/* En-tête avec image de couverture */}
           <div className="relative h-80 md:h-96 rounded-lg overflow-hidden mb-8">
             <img 
               src={car.image} 
@@ -177,6 +178,7 @@ const VehicleDetail: React.FC = () => {
                 <div className="bg-black/40 backdrop-blur-sm p-6 rounded-lg">
                   <h2 className="text-2xl font-bold text-white mb-6">Détails du véhicule</h2>
                   
+
                   <div className="flex justify-between items-center mb-6">
                     <div>
                       <p className="text-white/70 text-sm">Prix</p>
@@ -187,6 +189,7 @@ const VehicleDetail: React.FC = () => {
                     </div>
                   </div>
                   
+
                   <div className="mb-6">
                     <h3 className="text-xl font-medium text-white mb-3">Description</h3>
                     <p className="text-white/80">{car.description}</p>
@@ -230,6 +233,7 @@ const VehicleDetail: React.FC = () => {
                     </div>
                   </div>
                   
+
                   <div>
                     <h3 className="text-xl font-medium text-white mb-4">Options & Équipements</h3>
                     <div className="space-y-4">
@@ -262,6 +266,7 @@ const VehicleDetail: React.FC = () => {
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <input type="hidden" name="_subject" value={`Intérêt pour ${car?.name}`} />
                   
+
                   <div>
                     <label htmlFor="name" className="block text-white/80 mb-2">Nom complet</label>
                     <input
@@ -275,6 +280,7 @@ const VehicleDetail: React.FC = () => {
                     />
                   </div>
                   
+
                   <div>
                     <label htmlFor="email" className="block text-white/80 mb-2">Email</label>
                     <input
@@ -288,6 +294,7 @@ const VehicleDetail: React.FC = () => {
                     />
                   </div>
                   
+
                   <div>
                     <label htmlFor="phone" className="block text-white/80 mb-2">Téléphone</label>
                     <input
@@ -301,6 +308,7 @@ const VehicleDetail: React.FC = () => {
                     />
                   </div>
                   
+
                   <div>
                     <label htmlFor="message" className="block text-white/80 mb-2">Message</label>
                     <textarea
@@ -315,66 +323,18 @@ const VehicleDetail: React.FC = () => {
                     ></textarea>
                   </div>
                   
+
                   <button
                     type="submit"
-                    className="w-full py-3 px-4 bg-gold text-black font-medium rounded-md hover:bg-gold/90 transition-colors duration-300 disabled:opacity-70 disabled:cursor-not-allowed"
+                    className="w-full py-3 px-4 bg-gold text-black font-medium rounded-md hover:bg-gold/90 transition-colors duration-300"
                     disabled={isSubmitting}
                   >
-                    {isSubmitting ? 'Envoi en cours...' : 'Acheter ce véhicule'}
+                    {isSubmitting ? 'Envoi en cours...' : 'Envoyer ma demande'}
                   </button>
-                  
-                  <p className="text-white/60 text-sm text-center">
-                    Nous vous répondrons dans les plus brefs délais pour finaliser votre achat.
-                  </p>
                 </form>
               </div>
             </TabsContent>
           </Tabs>
-          
-          {/* Boutons de navigation entre onglets */}
-          <div className="flex justify-between mt-8">
-            {activeTab === "overview" && (
-              <div className="flex-1"></div>
-            )}
-            {activeTab === "specs" && (
-              <button 
-                onClick={() => handleTabChange("overview")}
-                className="px-4 py-2 bg-black/40 backdrop-blur-sm border border-white/10 rounded-md text-white hover:bg-black/60 transition-colors"
-              >
-                ← Retour à l'aperçu
-              </button>
-            )}
-            {activeTab === "contact" && (
-              <button 
-                onClick={() => handleTabChange("specs")}
-                className="px-4 py-2 bg-black/40 backdrop-blur-sm border border-white/10 rounded-md text-white hover:bg-black/60 transition-colors"
-              >
-                ← Caractéristiques
-              </button>
-            )}
-            
-            <div className="flex-1"></div>
-            
-            {activeTab === "overview" && (
-              <button 
-                onClick={() => handleTabChange("specs")}
-                className="px-4 py-2 bg-black/40 backdrop-blur-sm border border-white/10 rounded-md text-white hover:bg-black/60 transition-colors"
-              >
-                Caractéristiques →
-              </button>
-            )}
-            {activeTab === "specs" && (
-              <button 
-                onClick={() => handleTabChange("contact")}
-                className="px-4 py-2 bg-gold/90 text-black font-medium rounded-md hover:bg-gold transition-colors"
-              >
-                Acheter ce véhicule →
-              </button>
-            )}
-            {activeTab === "contact" && (
-              <div className="flex-1"></div>
-            )}
-          </div>
         </div>
       </div>
     </Layout>
