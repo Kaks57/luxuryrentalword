@@ -104,9 +104,9 @@ export const cars: Car[] = [
 
   {
     id: 10,
-    name: "Urus 4.0 ",
-    brand: "Lamborghini ",
-    price: "228 900€",
+    name: "GLE AMG 350 ",
+    brand: "Mercedes ",
+    price: "58 500€",
     description: "Le luxe britannique par excellence. Alliance parfaite entre confort, technologie et performances.",
     image: "/blanche.jpeg",
     features: ["W12 6.0L", "635 CV", "0-100 km/h en 3.6s", "Intérieur cuir premium"]
@@ -114,9 +114,9 @@ export const cars: Car[] = [
 
   {
     id: 11,
-    name: "Urus 4.0 ",
-    brand: "Lamborghini ",
-    price: "228 900€",
+    name: "SL 43 AMG ",
+    brand: "Mercedes ",
+    price: "125 000€",
     description: "Le luxe britannique par excellence. Alliance parfaite entre confort, technologie et performances.",
     image: "/cambriolet.jpeg",
     features: ["W12 6.0L", "635 CV", "0-100 km/h en 3.6s", "Intérieur cuir premium"]
