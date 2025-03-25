@@ -101,7 +101,7 @@ export const cars: Car[] = [
 
   {
     id: 8,
-    name: "CLE 2020 coupe amg line 9g tronic ",
+    name: "CLE 220 coupe amg line 9g tronic ",
     brand: "Mercedes",
     price: "63 990€",
     description: "Le luxe britannique par excellence. Alliance parfaite entre confort, technologie et performances.",
