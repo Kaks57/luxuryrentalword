@@ -193,11 +193,18 @@ const ContactSection: React.FC = () => {
                       className="w-full bg-white/5 border border-white/10 rounded-md px-4 py-3 text-black focus:outline-none focus:ring-2 focus:ring-gold/50"
                     >
                       <option value="">Sélectionnez un véhicule</option>
-                      <option value="Ferrari 488 GTB">Ferrari 488 GTB</option>
-                      <option value="Lamborghini Huracán">Lamborghini Huracán</option>
-                      <option value="Bentley Continental GT">Bentley Continental GT</option>
-                      <option value="Rolls-Royce Phantom">Rolls-Royce Phantom</option>
-                      <option value="Autre">Autre</option>
+<option value="A45S AMG">A45S AMG</option>
+<option value="A180 AMG line">A180 AMG line</option>
+<option value="A180 AMG line (2)">A180 AMG line (2)</option>
+<option value="A35 AMG">A35 AMG</option>  
+<option value="A35 AMG (2)">A35 AMG (2)</option>
+<option value="812gtie">Ferrari 812 GTS</option>
+<option value="296gtb">Ferrari 296 GTB</option>
+<option value="Huracán Evo LP 640">Lamborghini Huracán Evo LP 640</option>
+<option value="CLE 220 coupe amg line 9g tronic">CLE 220 Coupé AMG Line 9G-Tronic</option>
+<option value="Urus 4.0">Lamborghini Urus 4.0</option>
+<option value="Autre">Autre</option>
+
                     </select>
                   </div>
                 </div>

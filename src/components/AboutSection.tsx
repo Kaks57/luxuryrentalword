@@ -58,7 +58,7 @@ const AboutSection: React.FC = () => {
           >
             <div className="relative z-10">
               <img 
-                src="/treez.jpeg"  // Chemin relatif pour l'image dans le dossier public
+                src="/presentation.jpeg"  // Chemin relatif pour l'image dans le dossier public
                 alt="Notre showroom" 
                 className="w-full h-auto rounded-lg shadow-xl"
               />
