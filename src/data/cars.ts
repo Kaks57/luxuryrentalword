@@ -32,6 +32,8 @@ export const cars: Car[] = [
     image: "/WhatsApp Image 2025-03-24 at 13.04.28.jpeg",
     features: ["V10 5.2L", "640 CV", "0-100 km/h en 2.8s", "Transmission 7 vitesses"]
   },
+
+  
   {
     id: 3,
     name: "A35 AMG",
