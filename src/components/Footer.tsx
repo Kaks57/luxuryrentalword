@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-10">
           <div>
             <h3 className="text-2xl font-heading font-bold mb-4">
-              Luxury<span className="text-gold">Rental</span>Word
+              Luxury<span className="text-gold">Sale</span>Word
             </h3>
             <p className="text-white/70 mb-4">
               L'excellence automobile au service de votre expérience de conduite.
@@ -90,7 +90,7 @@ const Footer: React.FC = () => {
         <div className="border-t border-white/10 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-white/70 text-center md:text-left mb-4 md:mb-0">
-              &copy; {currentYear} LuxuryRentalWord. Tous droits réservés.
+              &copy; {currentYear} LuxurySaleWord. Tous droits réservés.
             </p>
             <div className="flex space-x-6">
               <a href="#" className="text-white/70 hover:text-gold transition-colors duration-300">Politique de confidentialité</a>
