@@ -73,11 +73,11 @@ const AboutSection: React.FC = () => {
             className="flex-1 opacity-0"
           >
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              À Propos de <span className="text-gold">LuxuryRentalWord</span>
+              À Propos de <span className="text-gold">LuxuryRentalWorld</span>
             </h2>
             
             <p className="text-gray-700 mb-8">
-              Depuis plus de 10 ans, LuxuryRentalWord est le partenaire privilégié des amateurs de voitures d'exception. Notre passion pour l'automobile de luxe nous pousse à offrir un service d'une qualité incomparable.
+              Depuis plus de 10 ans, LuxuryRentalWorld est le partenaire privilégié des amateurs de voitures d'exception. Notre passion pour l'automobile de luxe nous pousse à offrir un service d'une qualité incomparable.
             </p>
             
             <div className="space-y-6 mb-8">
