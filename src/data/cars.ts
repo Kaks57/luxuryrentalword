@@ -10,15 +10,25 @@ export interface Car {
 
 export const cars: Car[] = [
   {
-    id: 1,
-    name: "A45S AMG",
-    brand: "Mercedes",
-    price: "65 000€",
-    description: "Une compacte sportive avec une tenue de route exceptionnelle et une motorisation puissante.",
-    image: "/a45 1 (2).jpeg",
-    features: ["4 cylindres 2.0L Turbo", "421 CV", "0-100 km/h en 3.9s", "Boîte automatique 8 rapports"]
-  },
-  
+    "id": 1,
+    "name": "A45S AMG",
+    "brand": "Mercedes",
+    "price": "65 000€",
+    "description": "Voici une Mercedes A45s AMG de 2022 avec seulement 32 897 km au compteur. Cette voiture citadine haut de gamme est équipée d'un moteur essence de 421 ch avec une boîte de vitesses automatique à 8 rapports. Elle est en excellent état, sans aucun dommage, et dispose de nombreuses fonctionnalités de sécurité avancées. Avec son design sportif et son intérieur de qualité, cette A45s AMG saura vous séduire par ses performances et son style.",
+    "image": "/a45 1 (2).jpeg",
+    "features": [
+      "Marque : Mercedes-Benz",
+      "Modèle : Classe A 45 AMG",
+      "Année : 2022",
+      "Kilométrage : 32 897 km",
+      "Motorisation : Essence, 421 ch",
+      "Boîte de vitesses : Automatique 8 rapports",
+      "Couleur : Noir",
+      "État général : Excellent, sans dommage",
+      "Norme d'émissions : Euro 6",
+      "Contrôle technique valable jusqu'en 04/2026"
+    ]
+  },  
   {
     id: 2,
     name: "A180 AMG Line",
@@ -28,7 +38,6 @@ export const cars: Car[] = [
     image: "/WhatsApp Image 2025-03-24 at 13.04.28.jpeg",
     features: ["4 cylindres 1.3L Turbo", "136 CV", "0-100 km/h en 8.8s", "Boîte automatique 7G-DCT"]
   },
-
   {
     id: 3,
     name: "A180 AMG Line",
@@ -38,7 +47,6 @@ export const cars: Car[] = [
     image: "/WhatsApp Image 2025-03-24 at 13.04.28.jpeg",
     features: ["4 cylindres 1.3L Turbo", "136 CV", "0-100 km/h en 8.8s", "Boîte automatique 7G-DCT"]
   },
-  
   {
     id: 4,
     name: "A35 AMG",
@@ -48,7 +56,6 @@ export const cars: Car[] = [
     image: "/blan.jpeg",
     features: ["4 cylindres 2.0L Turbo", "306 CV", "0-100 km/h en 4.7s", "Transmission 4MATIC"]
   },
-
   {
     id: 5,
     name: "A35 AMG",
@@ -58,7 +65,6 @@ export const cars: Car[] = [
     image: "/gris.jpeg",
     features: ["4 cylindres 2.0L Turbo", "306 CV", "0-100 km/h en 4.7s", "Transmission 4MATIC"]
   },
-
   {
     id: 6,
     name: "812 GTS",
@@ -68,17 +74,15 @@ export const cars: Car[] = [
     image: "/jaune.jpeg",
     features: ["V12 6.5L", "800 CV", "0-100 km/h en 2.9s", "Boîte F1 DCT 7 rapports"]
   },
-
   {
     id: 7,
     name: "296 GTB",
     brand: "Ferrari",
     price: "370 000€",
-    description: "L'innovation hybride chez Ferrari : puissance électrique et thermique pour des sensations uniques.",
+    description: "L'innovation hybride chez Ferrari : qpuissance électrique et thermique pour des sensations uniques.",
     image: "/rouge.jpeg",
     features: ["V6 3.0L Hybride", "830 CV", "0-100 km/h en 2.9s", "Boîte F1 DCT 8 rapports"]
   },
-
   {
     id: 8,
     name: "Huracán EVO LP 640",
@@ -88,7 +92,6 @@ export const cars: Car[] = [
     image: "/noir.jpeg",
     features: ["V10 5.2L", "640 CV", "0-100 km/h en 2.9s", "Transmission intégrale"]
   },
-
   {
     id: 9,
     name: "CLE 220 Coupé AMG Line 9G-Tronic",
@@ -98,7 +101,6 @@ export const cars: Car[] = [
     image: "/mernoir.jpeg",
     features: ["4 cylindres 2.0L Diesel", "194 CV", "0-100 km/h en 7.2s", "Boîte automatique 9G-Tronic"]
   },
-
   {
     id: 10,
     name: "Urus 4.0",
@@ -108,7 +110,6 @@ export const cars: Car[] = [
     image: "/mate.jpeg",
     features: ["V8 4.0L Bi-Turbo", "650 CV", "0-100 km/h en 3.6s", "Transmission intégrale"]
   },
-
   {
     id: 11,
     name: "Vantage Roadster",
@@ -118,7 +119,6 @@ export const cars: Car[] = [
     image: "/monaco.jpeg",
     features: ["V8 4.0L Bi-Turbo", "510 CV", "0-100 km/h en 3.7s", "Boîte automatique ZF 8 rapports"]
   },
-
   {
     id: 12,
     name: "Vantage S AMR",
@@ -128,7 +128,6 @@ export const cars: Car[] = [
     image: "/2place.jpeg",
     features: ["V12 6.0L", "603 CV", "0-100 km/h en 3.5s", "Boîte manuelle 7 rapports"]
   },
-
   {
     id: 13,
     name: "Bentayga 6.0",
