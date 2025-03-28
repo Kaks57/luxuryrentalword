@@ -408,7 +408,7 @@ export const cars: Car[] = [
   brand: "Audi",
   price: "120 000€",
   description: "Équipement spécial : Pack Assistance plus, clé Audi connect, anneaux et lettrage Audi en noir brillant, rétroviseurs extérieurs électriques réglables, chauffants et rabattables avec atténuation automatique et mémoire, rétroviseurs extérieurs couleur carrosserie, système mains libres Bluetooth avec reconnaissance vocale (Audi Phone Box), pack design RS rouge, vitesse de pointe 305 km/h, étriers de frein peints en rouge, combiné d'instruments numérique (virtual cockpit plus) au design RS, clé confort avec ouverture du hayon par capteur et système d'alarme antivol inclus (ouverture + fermeture), jantes LM 10,5x22 (rayons 5 V, design à rayons trapézoïdaux, noir anthracite, brillant), phares à LED matriciels avec éclairage laser, peinture métallisée, toit panoramique électrique à l'avant, fixe à l'arrière, airbags latéraux à l'avant et à l'arrière, émetteur pour ouvre-porte de garage (intégré), verrouillage servo pour les portes, revêtement de siège en cuir Valcona perforé avec matelassage en nid d'abeille et ventilation, ports de chargement USB (2 voies, type C) pour les passagers arrière, vitrage arrière obscurci (vitrage privé).",
-  image: "/cheum.jpeg",
+  image: "/rs6.jpeg",
   features: [
     "Pack de rangement",
     "Airbag passager désactivable",
