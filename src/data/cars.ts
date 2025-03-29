@@ -620,7 +620,7 @@ name: "Mercedes GLE 53 AMG Coupé",
 brand: "Mercedes",
 price: "84 990€",
 description: "À vendre Mercedes GLE 53 AMG Coupé full options, première main, entretien à jour, pneus neuf, frein neuf. Pas d’échange possible.",
-image: "/mercedes-gle-53-amg-coupe.jpg",
+image: "/thion.jpeg",
 features: [
   "Moteur 3.0L 6 Cylindres",
   "Conduite semi autonome",
