@@ -642,8 +642,38 @@ features: [
   "Climatisation 4 zones",
   "Jantes 22 pouces"
 ]
-}
-
+},
+{
+id: 21,
+name: "AMG GTS",
+brand: "Mercedes",
+price: "89 000€",
+description: "Vends AMG GTS 510 CH, 67 000 km, entretien exclusif Mercedes, contrôle technique OK zéro défauts. Pas d’échange possible.",
+image: "/bleu.jpeg",
+features: [
+  "Moteur V8 4.0L Biturbo - 510 CH",
+  "67 000 km",
+  "Entretien exclusif Mercedes",
+  "Contrôle technique OK zéro défauts",
+  "Intérieur cuir bi-ton blanc (série spéciale)",
+  "Aileron en carbone",
+  "Boîte automatique 7 rapports",
+  "Suspensions sport AMG",
+  "Freins haute performance AMG",
+  "Échappement sport AMG",
+  "Jantes 19'' à l'avant, 20'' à l'arrière",
+  "Sièges baquets AMG Performance",
+  "Affichage tête haute",
+  "Système audio Burmester",
+  "Caméra 360°",
+  "Park Assist",
+  "Keyless Go",
+  "Feux LED haute performance",
+  "Détecteur d'angles morts",
+  "CarPlay & Android Auto",
+  "Climatisation automatique 2 zones"
+]
+},
 
 
 
