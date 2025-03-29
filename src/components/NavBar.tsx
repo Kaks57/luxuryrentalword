@@ -33,7 +33,7 @@ const NavBar: React.FC = () => {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <Link to="/">
-            <img src="/LOGO@2x.png" alt="Logo" className="h-12" />
+            <img src="/LOGO@2x.png" alt="Logo" className="h-16" />
           </Link>
 
           {isMobile ? (

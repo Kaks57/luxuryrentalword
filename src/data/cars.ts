@@ -394,13 +394,13 @@ export const cars: Car[] = [
     ]
 },
 {
-  "id": 14,
-  "name": "DB12 Volante",
-  "brand": "Aston Martin",
-  "price": "259 900€",
-  "description": "Voiture immatriculée à Monaco très élégante triple bleu : peinture, capote et cuir. État neuf avec 3 ans de garantie et 1100 km, film protection PPF antérieur, bâche et chargeur inclus + pneus hiver Michelin.",
-  "image": "/cheum.jpeg",
-  "features": ["V8 4.0L Biturbo", "680 CV", "0-100 km/h en 3.6s", "Boîte automatique 8 rapports"]
+  id: 14,
+  name: "DB12 Volante",
+  brand: "Aston Martin",
+  price: "259 900€",
+  description: "Voiture immatriculée à Monaco très élégante triple bleu : peinture, capote et cuir. État neuf avec 3 ans de garantie et 1100 km, film protection PPF antérieur, bâche et chargeur inclus + pneus hiver Michelin.",
+  image: "/cheum.jpeg",
+  features: ["V8 4.0L Biturbo", "680 CV", "0-100 km/h en 3.6s", "Boîte automatique 8 rapports"]
 },
  {
   id: 15,
@@ -500,7 +500,54 @@ export const cars: Car[] = [
     "Répartiteur électronique de freinage",
     "Airbags rideaux"
   ]
+},
+
+{
+  id: 17,
+  name: "VITO TOURER",
+  brand: "Mercedes",
+  price: "72 400€",
+  description: "Mercedes Vito Tourer 8/9 places immatriculé en décembre 2023, état impeccable avec seulement 9 500 km. Deux configurations possibles : 8 ou 9 places (banquette 3 places d’origine et tablette fournies). Véhicule idéal pour les familles ou un usage professionnel (VTC).",
+  image: "/bus.jpeg",
+  features: [
+    "Moteur diesel Mercedes 116",
+    "Boîte automatique 9G-Tronic avec palettes au volant",
+    "Climatisation automatique multi-zone",
+    "8/9 places modulables",
+    "Contrat de service 120 000 km / 12/2027",
+    "Couleur : Noir",
+    "État : IMPECCABLE"
+  ]
+},
+
+{
+  id: 18,
+  name: "Classe C 220d AMG Line 4Matic",
+  brand: "Mercedes-Benz",
+  price: "50 000€",
+  description: "Mercedes-Benz Classe C 220d 197+23ch AMG Line 4Matic, Blanc polaire, mise en circulation le 15/06/2022. Véhicule en excellent état avec un moteur performant et des équipements haut de gamme.",
+  image: "/dallas.jpeg",
+  features: [
+    "Moteur diesel 220d - 197+23 ch",
+    "Boîte automatique 9G-Tronic",
+    "Transmission 4Matic",
+    "Affichage tête haute",
+    "Système d'accès sans clé",
+    "Caméras panoramiques + radar de stationnement AV/AR",
+    "Pack sport black",
+    "Toit ouvrant panoramique",
+    "Sièges avant chauffants et électriques",
+    "Système audio premium",
+    "Système de détection de somnolence",
+    "Freinage automatique d'urgence",
+    "Assistance de maintien de trajectoire",
+    "Reconnaissance des panneaux de signalisation",
+    "Volant sport en cuir multifonctions",
+    "Jantes aluminium 20 pouces",
+    "Climatisation automatique bi-zones"
+  ]
 }
+
 
 
   
