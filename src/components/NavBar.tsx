@@ -31,8 +31,9 @@ const NavBar: React.FC = () => {
     >
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex justify-between items-center">
-          <Link to="/" className="text-white text-2xl font-heading font-bold">
-            LuxurySale<span className="text-gold">World</span>
+          {/* Logo */}
+          <Link to="/">
+            <img src="/LOGO@2x.png" alt="Logo" className="h-16" />
           </Link>
 
           {isMobile ? (
