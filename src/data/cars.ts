@@ -674,6 +674,71 @@ features: [
   "Climatisation automatique 2 zones"
 ]
 },
+{
+  id: 22,
+  name: "AMG GT 63",
+  brand: "Mercedes",
+  price: "245 000€",
+  description: "Vend Mercedes AMG GT63 de 2024 avec seulement 4 000 km. Véhicule français acheté à la concession de Colmar au prix de 280 000€. Performances exceptionnelles et design sportif.",
+  image: "/gorille.jpeg",
+  features: [
+    "Moteur V8 biturbo - 585 CH",
+    "Boîte automatique",
+    "Année : 2024",
+    "Kilométrage : 4 000 km",
+    "Couleur : Gris alpin uni",
+    "Nombre de places : 4",
+    "État général : Excellent",
+    "Essieu avant relevable",
+    "Pack carbone extérieur AMG",
+    "Insert décoratif AMG en carbone",
+    "Volant Performance AMG finition carbone/microfibre",
+    "Jantes forgées AMG 21'' à branches en Y",
+    "Pack d'assistance à la conduite",
+    "Système audio haut de gamme",
+    "Affichage tête haute",
+    "Suspensions sport AMG",
+    "Échappement sport AMG",
+    "Sièges sport AMG chauffants et ventilés",
+    "Caméra 360°",
+    "Park Assist",
+    "Détecteur d'angles morts",
+    "CarPlay & Android Auto",
+    "Climatisation automatique 4 zones"
+  ]
+},
+{
+  id: 23,
+  name: "G63 AMG",
+  brand: "Mercedes",
+  price: "215 000€",
+  description: "Vend Mercedes G63 Black full option V8. Véhicule français acheté chez le concessionnaire de Toulouse. Année décembre 2023, 8 673 km, état neuf. Malus payé.",
+  image: "/gle.jpeg",
+  features: [
+    "Moteur V8 biturbo",
+    "Boîte automatique",
+    "Année : Décembre 2023",
+    "Kilométrage : 8 673 km",
+    "Couleur : Noir",
+    "État général : Neuf",
+    "Transmission intégrale 4MATIC",
+    "Suspension adaptative AMG",
+    "Échappement sport AMG",
+    "Intérieur cuir premium",
+    "Sièges chauffants et ventilés",
+    "Affichage tête haute",
+    "Caméra 360°",
+    "Système audio haut de gamme",
+    "Toit ouvrant panoramique",
+    "Régulateur adaptatif",
+    "Pack d’assistance à la conduite",
+    "Détecteur d’angles morts",
+    "Park Assist",
+    "CarPlay & Android Auto",
+    "Climatisation automatique 4 zones"
+  ]
+}
+
 
 
 
