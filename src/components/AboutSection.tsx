@@ -73,7 +73,7 @@ const AboutSection: React.FC = () => {
             className="flex-1 opacity-0"
           >
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              À Propos de <span className="text-gold">LuxuryRentalWorld</span>
+              À Propos de <span className="text-gold">LuxurySaleWorld</span>
             </h2>
             
             <p className="text-gray-700 mb-8">
