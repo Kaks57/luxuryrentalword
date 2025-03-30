@@ -553,7 +553,11 @@ export const cars: Car[] = [
   brand: "Aston Martin",
   price: "159 900€",
   description: "Véhicule en très bon état. Plus de photos sur demande. Historique d’entretiens disponible.",
+<<<<<<< HEAD
   image: "/matin.jpeg",
+=======
+  image: "/matin.jpg",
+>>>>>>> 772e7919616819739c173236c0e5e24b22fb3798
   features: [
     "V8 4.0L Biturbo",
     "550 CV",
@@ -674,6 +678,7 @@ features: [
   "Climatisation automatique 2 zones"
 ]
 },
+<<<<<<< HEAD
 {
   id: 22,
   name: "AMG GT 63",
@@ -1028,6 +1033,8 @@ features: [
 
 
 
+=======
+>>>>>>> 772e7919616819739c173236c0e5e24b22fb3798
 
 
 

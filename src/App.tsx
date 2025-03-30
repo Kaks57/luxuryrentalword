@@ -10,9 +10,12 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import VehicleDetail from "./pages/VehicleDetail";
+<<<<<<< HEAD
 import Services from "./pages/Services";
 
 
+=======
+>>>>>>> 772e7919616819739c173236c0e5e24b22fb3798
 
 const queryClient = new QueryClient();
 
@@ -30,7 +33,10 @@ const App = () => (
           <Route path="/vehicule/:id" element={<VehicleDetail />} />
           <Route path="/vehicule/:id/specs" element={<VehicleDetail />} />
           <Route path="/vehicule/:id/contact" element={<VehicleDetail />} />
+<<<<<<< HEAD
           <Route path="/services" element={<Services />} />
+=======
+>>>>>>> 772e7919616819739c173236c0e5e24b22fb3798
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
