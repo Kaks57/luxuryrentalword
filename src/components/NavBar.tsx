@@ -78,8 +78,6 @@ const NavLinks: React.FC<NavLinksProps> = ({ isMobile, closeMenu }) => {
     { label: 'Services', href: '/Services' },
 
 
-    { label: 'Services', href: '/Services' },
-
 
   ];
 
