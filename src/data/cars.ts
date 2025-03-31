@@ -553,11 +553,7 @@ export const cars: Car[] = [
   brand: "Aston Martin",
   price: "159 900€",
   description: "Véhicule en très bon état. Plus de photos sur demande. Historique d’entretiens disponible.",
-<<<<<<< HEAD
   image: "/matin.jpeg",
-=======
-  image: "/matin.jpg",
->>>>>>> 772e7919616819739c173236c0e5e24b22fb3798
   features: [
     "V8 4.0L Biturbo",
     "550 CV",
@@ -678,7 +674,6 @@ features: [
   "Climatisation automatique 2 zones"
 ]
 },
-<<<<<<< HEAD
 {
   id: 22,
   name: "AMG GT 63",
@@ -1027,14 +1022,161 @@ features: [
   ]
 },
 
+{
+  id:30,
+  name: "Range Rover Sport Autobiography P510e 2023",
+  brand: "Land Rover",
+  price: "129 990€",
+  description: "Range Rover Sport Autobiography P510e hybride rechargeable de 510 ch, acheté neuf et entretenu en concession. Première main avec un équipement complet et un confort exceptionnel.",
+  image: "/1.jpeg",
+  features: [
+    "Hybride rechargeable P510e 510 ch",
+    "Année 2023",
+    "Kilométrage : 17 800 km",
+    "Couleur noir métallisé",
+    "Première main",
+    "Full options",
+    "Sièges chauffants et ventilés avant/arrière",
+    "Toit ouvrant panoramique",
+    "Système audio Meridian",
+    "Pack Black",
+    "Affichage tête haute",
+    "Attelage",
+    "Jantes 23\"",
+    "Suspension pneumatique",
+    "Et tant d'autres options..."
+  ]
+},
+{
+  "id": 31,
+  "name": "Mercedes G63 AMG",
+  "brand": "Mercedes-Benz",
+  "price": "275 000€",
+  "description": "Mercedes G63 AMG française, première main avec un équipement exceptionnel et de nombreuses options haut de gamme. Véhicule entretenu avec soin et doté des dernières technologies Mercedes-AMG.",
+  "image": "/2.jpeg",
+  "features": [
+    "Première main française",
+    "Boîte automatique 9 rapports SPEEDSHIFT TCT AMG",
+    "Moteur AMG haute performance",
+    "Pack Sport Black AMG complet",
+    "Performance package (240 km/h)",
+    "Intérieur SUPERIOR Line en cuir Nappa",
+    "Sièges multicontours actifs Plus",
+    "Système audio Burmester® Surround",
+    "Projecteurs MULTIBEAM LED",
+    "Toit ouvrant électrique en verre",
+    "Pack d'assistance à la conduite complet",
+    "Caméras panoramiques et PARKTRONIC",
+    "Commandes AMG en carbone/microfibre",
+    "Réservoir carburant 100L (121L avec réserve)",
+    "Inserts décoratifs en carbone AMG",
+    "Éclairage d'ambiance 64 couleurs",
+    "Documentation en français",
+    "Toutes options haut de gamme"
+  ]
+},
+{
+  "id": 32,
+  "name": "Porsche Panamera 4 E-Hybrid",
+  "brand": "Porsche",
+  "price": "96 900€",
+  "description": "Porsche Panamera 4 E-Hybrid de 462 ch en excellent état, full options avec suivi Porsche et garantie jusqu'au 12/04/2026. Véhicule haut de gamme alliant performance et technologie hybride.",
+  "image": "/3.jpeg",
+  "features": [
+    "Modèle hybride rechargeable 462 ch",
+    "Boîte automatique PDK 8 rapports",
+    "Full options",
+    "Garantie Porsche jusqu'au 12/04/2026",
+    "Excellent état général",
+    "Suivi d'entretien Porsche complet",
+    "Pack Performance Porsche",
+    "Système de traction intégrale",
+    "Intérieur cuir full équipé",
+    "Système info-divertissement Porsche Communication Management",
+    "Assistance à la conduite complète",
+    "Jantes alliage Porsche design",
+    "Freins performants Porsche",
+    "Suspension adaptative",
+    "Éclairage matriciel LED",
+    "Toit panoramique (si équipé)",
+    "Sellerie sport multicontour (si équipé)",
+    "Système audio haut de gamme"
+  ]
+},
+{
+  "id": 33,
+  "name": "Audi R8 V10 Performance (610ch)",
+  "brand": "Audi",
+  "price": "133 000€",
+  "description": "Audi R8 V10 Performance de 610ch, 56 400 km, full options avec historique Audi complet. CT 2025 vierge. Jaune Vegas/Noir Nappa.",
+  "image": "/4.jpeg",
+  "features": [
+    "5.2 V10 Atmosphérique 610ch",
+    "Boîte S-TRONIC 7 rapports",
+    "Quattro permanente",
+    "Freins carbone céramique",
+    "Pack Carbone intérieur/extérieur",
+    "LED Laser + Sideblades carbone",
+    "Jantes 19\" sans rayure",
+    "Échappement sport d'origine",
+    "Protection film transparent usine",
+    "Intérieur cuir Nappa noir/surpiqûres jaunes",
+    "Volant S-Line + palettes",
+    "Audi Virtual Cockpit",
+    "Bang & Olufsen",
+    "Sièges chauffants à mémoire",
+    "Aide au parking AV/AR + caméra",
+    "CT 14/03/2025 (0 défaut)",
+    "Dernière révision 03/2025",
+    "Jamais accidenté",
+    "Non-fumeur"
+  ]
+},
+{
+  "id": 34,
+  "name": "Volkswagen Tiguan 2.0 TDI 150ch R-Line Exclusive DSG7",
+  "brand": "Volkswagen",
+  "price": "45 000€",
+  "description": "Volkswagen Tiguan 2.0 TDI 150ch R-Line Exclusive DSG7, quasi-neuf (<7 500 km), garantie 4 ans jusqu'en 03-2028. Version haut de gamme avec 6 422€ d'options premium.",
+  "image": "/5.jpeg",
+  "features": [
+    "Mise en circulation : 03/2024",
+    "Kilométrage : <7 500 km (évolutif)",
+    "Noir intense métallisé nacré (700€)",
+    "Intérieur R-Line Exclusive",
+    "Boîte DSG7 automatique",
+    "Moteur 2.0 TDI 150ch (8cv)",
+    "Garantie constructeur jusqu'en 03/2028",
+    "Prix neuf : 60 652€ + 6 422€ d'options",
+    
+    "Équipements R-Line Exclusive :",
+    "- Jantes 20\" Suzuka noir (565€)",
+    "- Pack Design Black R-LINE (715€)",
+    "- Système audio Harman Kardon (880€)",
+    "- Amortissement piloté (1 070€)",
+    "- Direction dynamique progressive (260€)",
+    
+    "Options complémentaires :",
+    "- Attelage amovible (1 382€)",
+    "- Pack Hiver Plus (295€)",
+    "- Airbags latéraux arrière (430€)",
+    "- Plancher de chargement variable + roue de secours",
+    "- Prise 230V + lampe coffre (125€)",
+    
+    "État : quasi-neuf",
+    "CT à jour",
+    "Pneus auto-colmatants 255/40 R20",
+    "Véhicule non-fumeur",
+    "Historique complet Volkswagen"
+  ]
+}
 
 
 
 
 
 
-=======
->>>>>>> 772e7919616819739c173236c0e5e24b22fb3798
+
 
 
 
