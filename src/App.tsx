@@ -14,6 +14,9 @@ import Services from "./pages/Services";
 
 
 
+
+
+
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -30,6 +33,8 @@ const App = () => (
           <Route path="/vehicule/:id" element={<VehicleDetail />} />
           <Route path="/vehicule/:id/specs" element={<VehicleDetail />} />
           <Route path="/vehicule/:id/contact" element={<VehicleDetail />} />
+
+          <Route path="/services" element={<Services />} />
           <Route path="/services" element={<Services />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
