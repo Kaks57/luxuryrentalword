@@ -1107,7 +1107,7 @@ features: [
   "id": 33,
   "name": "Audi R8 V10 Performance (610ch)",
   "brand": "Audi",
-  "price": "À préciser",
+  "price": "133 000€",
   "description": "Audi R8 V10 Performance de 610ch, 56 400 km, full options avec historique Audi complet. CT 2025 vierge. Jaune Vegas/Noir Nappa.",
   "image": "/4.jpeg",
   "features": [
@@ -1130,6 +1130,44 @@ features: [
     "Dernière révision 03/2025",
     "Jamais accidenté",
     "Non-fumeur"
+  ]
+},
+{
+  "id": 34,
+  "name": "Volkswagen Tiguan 2.0 TDI 150ch R-Line Exclusive DSG7",
+  "brand": "Volkswagen",
+  "price": "45 000€",
+  "description": "Volkswagen Tiguan 2.0 TDI 150ch R-Line Exclusive DSG7, quasi-neuf (<7 500 km), garantie 4 ans jusqu'en 03-2028. Version haut de gamme avec 6 422€ d'options premium.",
+  "image": "/5.jpeg",
+  "features": [
+    "Mise en circulation : 03/2024",
+    "Kilométrage : <7 500 km (évolutif)",
+    "Noir intense métallisé nacré (700€)",
+    "Intérieur R-Line Exclusive",
+    "Boîte DSG7 automatique",
+    "Moteur 2.0 TDI 150ch (8cv)",
+    "Garantie constructeur jusqu'en 03/2028",
+    "Prix neuf : 60 652€ + 6 422€ d'options",
+    
+    "Équipements R-Line Exclusive :",
+    "- Jantes 20\" Suzuka noir (565€)",
+    "- Pack Design Black R-LINE (715€)",
+    "- Système audio Harman Kardon (880€)",
+    "- Amortissement piloté (1 070€)",
+    "- Direction dynamique progressive (260€)",
+    
+    "Options complémentaires :",
+    "- Attelage amovible (1 382€)",
+    "- Pack Hiver Plus (295€)",
+    "- Airbags latéraux arrière (430€)",
+    "- Plancher de chargement variable + roue de secours",
+    "- Prise 230V + lampe coffre (125€)",
+    
+    "État : quasi-neuf",
+    "CT à jour",
+    "Pneus auto-colmatants 255/40 R20",
+    "Véhicule non-fumeur",
+    "Historique complet Volkswagen"
   ]
 }
 
