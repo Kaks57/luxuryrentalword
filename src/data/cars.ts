@@ -1103,6 +1103,35 @@ features: [
     "Système audio haut de gamme"
   ]
 },
+{
+  "id": 33,
+  "name": "Audi R8 V10 Performance (610ch)",
+  "brand": "Audi",
+  "price": "À préciser",
+  "description": "Audi R8 V10 Performance de 610ch, 56 400 km, full options avec historique Audi complet. CT 2025 vierge. Jaune Vegas/Noir Nappa.",
+  "image": "/4.jpeg",
+  "features": [
+    "5.2 V10 Atmosphérique 610ch",
+    "Boîte S-TRONIC 7 rapports",
+    "Quattro permanente",
+    "Freins carbone céramique",
+    "Pack Carbone intérieur/extérieur",
+    "LED Laser + Sideblades carbone",
+    "Jantes 19\" sans rayure",
+    "Échappement sport d'origine",
+    "Protection film transparent usine",
+    "Intérieur cuir Nappa noir/surpiqûres jaunes",
+    "Volant S-Line + palettes",
+    "Audi Virtual Cockpit",
+    "Bang & Olufsen",
+    "Sièges chauffants à mémoire",
+    "Aide au parking AV/AR + caméra",
+    "CT 14/03/2025 (0 défaut)",
+    "Dernière révision 03/2025",
+    "Jamais accidenté",
+    "Non-fumeur"
+  ]
+}
 
 
 
