@@ -1136,7 +1136,7 @@ features: [
   "id": 34,
   "name": "Volkswagen Tiguan 2.0 TDI 150ch R-Line Exclusive DSG7",
   "brand": "Volkswagen",
-  "price": "Vendu",
+  "price": "45 000€",
   "description": "Volkswagen Tiguan 2.0 TDI 150ch R-Line Exclusive DSG7, quasi-neuf (<7 500 km), garantie 4 ans jusqu'en 03-2028. Version haut de gamme avec 6 422€ d'options premium.",
   "image": "/5.jpeg",
   "features": [
