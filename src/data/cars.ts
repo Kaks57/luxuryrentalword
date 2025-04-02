@@ -1549,12 +1549,12 @@ features: [
 },
 
 {
-  "id": 42,
+  "id": 44,
   "name": "Mercedes-Benz Classe A 45 AMG S",
   "brand": "Mercedes-Benz",
-  "price": "À discuter",
+  "price": "58 000€",
   "description": "Je propose à la vente cette magnifique Mercedes-Benz Classe A 45 AMG S de 2020. Avec son pack aérodynamique et ses sièges Recaro, cette berline sportive développe 421 chevaux et offre des performances de haut niveau. Affichant seulement 42 000 km au compteur, elle est dans un état irréprochable. Équipée de la transmission intégrale 4MATIC+ et de la boîte de vitesses automatique AMG Speedshift, cette Classe A 45 AMG S saura vous séduire par son dynamisme et son style affirmé.",
-  "image": "/mercedes-a45-amg.jpg",
+  "image": "/44.jpeg",
   "features": [
     "Année : 2020",
     "Kilométrage : 42 000 km",
