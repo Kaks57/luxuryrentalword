@@ -76,6 +76,7 @@ const NavLinks: React.FC<NavLinksProps> = ({ isMobile, closeMenu }) => {
     { label: 'Contact', href: '/contact' },
  { label: 'Vehicules vendu', href: '/Vehiculesvendu' },
     { label: 'Services', href: '/Services' },
+    { label: 'Utilitaires', href: '/Utilitaires' },
 
 
    

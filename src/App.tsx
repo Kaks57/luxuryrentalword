@@ -12,7 +12,7 @@ import NotFound from "./pages/NotFound";
 import VehicleDetail from "./pages/VehicleDetail";
 import Services from "./pages/Services";
 import Vehiculesvendu from "./pages/Vehiculesvendu"
-
+import Utilitaires from "./pages/utilitaires"
 
 
 
@@ -33,7 +33,7 @@ const App = () => (
           <Route path="/vehicule/:id" element={<VehicleDetail />} />
           <Route path="/vehicule/:id/specs" element={<VehicleDetail />} />
           <Route path="/vehicule/:id/contact" element={<VehicleDetail />} />
-
+          <Route path="/utilitaires" element={<Utilitaires />} />
           <Route path="/services" element={<Services />} />
           <Route path="/Vehiculesvendu" element={<Vehiculesvendu />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
