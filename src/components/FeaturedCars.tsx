@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { useIsMobile } from '@/hooks/use-mobile';
@@ -32,6 +31,9 @@ const FeaturedCars: React.FC = () => {
     };
   }, []);
 
+  // Exclure les véhicules vendus
+  const availableCars = cars.filter(car => car.price.toLowerCase() !== "vendu");
+
   return (
     <section className="section-padding bg-gradient-to-b from-gray-900 to-black">
       <div className="container mx-auto">
@@ -45,7 +47,7 @@ const FeaturedCars: React.FC = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {cars.map((car, index) => (
+          {availableCars.map((car, index) => (
             <div
               key={car.id}
               ref={(el) => (carRefs.current[index] = el)}
