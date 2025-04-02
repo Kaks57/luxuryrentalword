@@ -273,7 +273,7 @@ export const cars: Car[] = [
     id: 9,
     name: "Urus 4.0",
     brand: "Lamborghini",
-    price: "228 900€",
+    price: "vendu",
     description: "Le premier SUV ultra-sportif de Lamborghini, offrant puissance et polyvalence.",
     image: "/mate.jpeg",
     features: ["V8 4.0L Bi-Turbo", "650 CV", "0-100 km/h en 3.6s", "Transmission intégrale"]
